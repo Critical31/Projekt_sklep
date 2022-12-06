@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	<persistence-unit name="sklep_EJB">
+		<jta-data-source>java:/jsfcourse/SimpleDS</jta-data-source>
+		<class>sklep_EJB.entities.Magazyn</class>
+		<class>sklep_EJB.entities.Marka</class>
+		<class>sklep_EJB.entities.Model</class>
+		<class>sklep_EJB.entities.Przedmiot</class>
+		<class>sklep_EJB.entities.PrzedmiotZamówienia</class>
+		<class>sklep_EJB.entities.StanMag</class>
+		<class>sklep_EJB.entities.Użytkownik</class>
+		<class>sklep_EJB.entities.Zamówienie</class>
+		<class>sklep_EJB.dao.MagazynDAO</class>
+		<class>sklep_EJB.dao.MarkaDAO</class>
+		<class>sklep_EJB.dao.ModelDAO</class>
+		<class>sklep_EJB.dao.PrzedmiotDAO</class>
+		<class>sklep_EJB.dao.PrzedmiotZamówieniaDAO</class>
+		<class>sklep_EJB.dao.StanMagDAO</class>
+		<class>sklep_EJB.dao.UżytkownikDAO</class>
+		<class>sklep_EJB.dao.ZamówienieDAO</class>
+	</persistence-unit>
+</persistence>
